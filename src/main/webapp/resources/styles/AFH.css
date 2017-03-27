@@ -1,0 +1,74 @@
+body {
+	font-family: calibri, arial, sans-serif;
+}
+
+form{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 100%;
+	padding: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}
+
+.job-listings{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+	margin-top:25px;
+	margin-bottom:25px;
+	font-size: 1.15em;
+}
+
+.job-listings span{
+	font-weight: bold;
+}
+
+
+.register-button{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	width: 49%;
+	height: 100px;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+
+#delete{
+	border: none;
+}
+
+
+#searchJobInput{
+	margin-left:-20px;
+}
+
+
+#manageAccountListItems{
+	margin-right:-20px;
+	
+}
+#manageAccountListItems li{
+	font-weight: bold;
+	
+}
+
+#appliedApplication{
+	margin-top:-45px;
+	margin-bottom: -35px;
+	
+}
+
+#candidateAppHeading{
+	margin-top:-5px;
+	margin-bottom: 20px;
+}
